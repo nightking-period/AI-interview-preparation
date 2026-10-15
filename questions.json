@@ -1,0 +1,390 @@
+[
+  {
+    "id": 1,
+    "topic": "Introduction to AI",
+    "skill": "Intelligent Agents",
+    "difficulty": 1,
+    "question": "What is an intelligent agent in Artificial Intelligence?",
+    "keywords": [
+      "perceive",
+      "environment",
+      "action",
+      "rational"
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Uninformed Search",
+    "skill": "BFS",
+    "difficulty": 1,
+    "question": "What is Breadth-First Search and what type of solution does it find when all step costs are equal?",
+    "keywords": [
+      "level",
+      "queue",
+      "complete",
+      "optimal"
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Uninformed Search",
+    "skill": "DFS",
+    "difficulty": 1,
+    "question": "Explain Depth-First Search and mention one advantage and one limitation.",
+    "keywords": [
+      "stack",
+      "deep",
+      "backtracking",
+      "memory"
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Uninformed Search",
+    "skill": "Uniform Cost Search",
+    "difficulty": 2,
+    "question": "How does Uniform Cost Search choose the next node?",
+    "keywords": [
+      "lowest",
+      "path",
+      "cost",
+      "priority"
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Uninformed Search",
+    "skill": "Iterative Deepening",
+    "difficulty": 2,
+    "question": "What is Iterative Deepening Depth-First Search and why is it useful?",
+    "keywords": [
+      "depth",
+      "limit",
+      "complete",
+      "memory"
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Informed Search",
+    "skill": "Greedy Best-First Search",
+    "difficulty": 2,
+    "question": "What evaluation value does Greedy Best-First Search use?",
+    "keywords": [
+      "heuristic",
+      "h(n)",
+      "estimated"
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Informed Search",
+    "skill": "A* Search",
+    "difficulty": 2,
+    "question": "State the evaluation function of A* Search and explain its terms.",
+    "keywords": [
+      "f(n)",
+      "g(n)",
+      "h(n)",
+      "cost"
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Informed Search",
+    "skill": "Heuristic Functions",
+    "difficulty": 2,
+    "question": "What is a heuristic function? Give one example.",
+    "keywords": [
+      "estimate",
+      "goal",
+      "distance",
+      "h(n)"
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Local Search",
+    "skill": "Hill Climbing",
+    "difficulty": 2,
+    "question": "Explain Hill-Climbing Search and the problem of local maxima.",
+    "keywords": [
+      "local",
+      "neighbor",
+      "maximum",
+      "improve"
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Local Search",
+    "skill": "Simulated Annealing",
+    "difficulty": 3,
+    "question": "How does Simulated Annealing escape a local optimum?",
+    "keywords": [
+      "temperature",
+      "worse",
+      "probability",
+      "cooling"
+    ]
+  },
+  {
+    "id": 11,
+    "topic": "Advanced Search",
+    "skill": "Bidirectional Search",
+    "difficulty": 2,
+    "question": "What is Bidirectional Search?",
+    "keywords": [
+      "start",
+      "goal",
+      "meet",
+      "search"
+    ]
+  },
+  {
+    "id": 12,
+    "topic": "Search Agents",
+    "skill": "Online Search",
+    "difficulty": 3,
+    "question": "What is an online search agent and how is it different from an offline search agent?",
+    "keywords": [
+      "unknown",
+      "environment",
+      "action",
+      "information"
+    ]
+  },
+  {
+    "id": 13,
+    "topic": "Adversarial Search",
+    "skill": "Minimax",
+    "difficulty": 2,
+    "question": "What is the purpose of the Minimax algorithm in game playing?",
+    "keywords": [
+      "game",
+      "opponent",
+      "maximize",
+      "minimize"
+    ]
+  },
+  {
+    "id": 14,
+    "topic": "Adversarial Search",
+    "skill": "Alpha-Beta Pruning",
+    "difficulty": 3,
+    "question": "What does Alpha-Beta Pruning improve in Minimax?",
+    "keywords": [
+      "prune",
+      "branches",
+      "alpha",
+      "beta"
+    ]
+  },
+  {
+    "id": 15,
+    "topic": "CSP",
+    "skill": "Constraint Satisfaction Problems",
+    "difficulty": 2,
+    "question": "Define a Constraint Satisfaction Problem and name its three basic components.",
+    "keywords": [
+      "variables",
+      "domains",
+      "constraints"
+    ]
+  },
+  {
+    "id": 16,
+    "topic": "CSP",
+    "skill": "Constraint Propagation",
+    "difficulty": 2,
+    "question": "What is constraint propagation?",
+    "keywords": [
+      "constraints",
+      "domain",
+      "remove",
+      "values"
+    ]
+  },
+  {
+    "id": 17,
+    "topic": "CSP",
+    "skill": "Backtracking",
+    "difficulty": 2,
+    "question": "How does Backtracking Search solve a CSP?",
+    "keywords": [
+      "assignment",
+      "conflict",
+      "backtrack",
+      "unassign"
+    ]
+  },
+  {
+    "id": 18,
+    "topic": "CSP",
+    "skill": "Local Search for CSPs",
+    "difficulty": 3,
+    "question": "How can local search be used to solve a CSP?",
+    "keywords": [
+      "conflicts",
+      "state",
+      "neighbor",
+      "minimize"
+    ]
+  },
+  {
+    "id": 19,
+    "topic": "Propositional Logic",
+    "skill": "Knowledge-Based Agents",
+    "difficulty": 2,
+    "question": "What is a knowledge-based agent?",
+    "keywords": [
+      "knowledge",
+      "facts",
+      "rules",
+      "inference"
+    ]
+  },
+  {
+    "id": 20,
+    "topic": "Propositional Logic",
+    "skill": "Inference",
+    "difficulty": 2,
+    "question": "What is inference in propositional logic?",
+    "keywords": [
+      "derive",
+      "conclusion",
+      "facts",
+      "rules"
+    ]
+  },
+  {
+    "id": 21,
+    "topic": "Propositional Logic",
+    "skill": "Resolution",
+    "difficulty": 3,
+    "question": "What is resolution in propositional logic?",
+    "keywords": [
+      "clause",
+      "literal",
+      "resolve",
+      "inference"
+    ]
+  },
+  {
+    "id": 22,
+    "topic": "Propositional Logic",
+    "skill": "Forward Chaining",
+    "difficulty": 2,
+    "question": "Explain Forward Chaining with a simple example.",
+    "keywords": [
+      "facts",
+      "rules",
+      "forward",
+      "conclusion"
+    ]
+  },
+  {
+    "id": 23,
+    "topic": "Propositional Logic",
+    "skill": "Backward Chaining",
+    "difficulty": 2,
+    "question": "Explain Backward Chaining with a simple example.",
+    "keywords": [
+      "goal",
+      "rules",
+      "backward",
+      "facts"
+    ]
+  },
+  {
+    "id": 24,
+    "topic": "Propositional Logic",
+    "skill": "Model Checking",
+    "difficulty": 3,
+    "question": "What is propositional model checking?",
+    "keywords": [
+      "models",
+      "truth",
+      "sentence",
+      "entails"
+    ]
+  },
+  {
+    "id": 25,
+    "topic": "First-Order Logic",
+    "skill": "FOL Syntax and Semantics",
+    "difficulty": 2,
+    "question": "How is First-Order Logic more expressive than propositional logic?",
+    "keywords": [
+      "objects",
+      "relations",
+      "predicates",
+      "quantifiers"
+    ]
+  },
+  {
+    "id": 26,
+    "topic": "First-Order Logic",
+    "skill": "Knowledge Engineering",
+    "difficulty": 2,
+    "question": "What is knowledge engineering in First-Order Logic?",
+    "keywords": [
+      "domain",
+      "ontology",
+      "facts",
+      "rules"
+    ]
+  },
+  {
+    "id": 27,
+    "topic": "FOL Inference",
+    "skill": "Unification",
+    "difficulty": 3,
+    "question": "What is unification in First-Order Logic?",
+    "keywords": [
+      "substitution",
+      "match",
+      "variables",
+      "terms"
+    ]
+  },
+  {
+    "id": 28,
+    "topic": "FOL Inference",
+    "skill": "Lifting",
+    "difficulty": 3,
+    "question": "What is lifting in First-Order Logic inference?",
+    "keywords": [
+      "first-order",
+      "generalize",
+      "substitution",
+      "inference"
+    ]
+  },
+  {
+    "id": 29,
+    "topic": "FOL Inference",
+    "skill": "FOL Resolution",
+    "difficulty": 3,
+    "question": "How is resolution used for inference in First-Order Logic?",
+    "keywords": [
+      "clause",
+      "unification",
+      "resolution",
+      "refutation"
+    ]
+  },
+  {
+    "id": 30,
+    "topic": "FOL Inference",
+    "skill": "FOL Forward Chaining",
+    "difficulty": 3,
+    "question": "How does Forward Chaining work with rules in First-Order Logic?",
+    "keywords": [
+      "facts",
+      "rules",
+      "substitution",
+      "derive"
+    ]
+  }
+]
